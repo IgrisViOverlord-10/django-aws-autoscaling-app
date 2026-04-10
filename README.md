@@ -77,10 +77,10 @@ README.md – Project documentation
 ## 📸 Snapshots Include
 
 - Application Running via ALB  
-- Target Group Health Status  
+- Target Group Health Status
+- Application Load Balancer Dashboard 
 - Auto Scaling Group Dashboard  
-- Application Load Balancer Dashboard  
-- Architecture Diagram   
+  
 
 ---
 
