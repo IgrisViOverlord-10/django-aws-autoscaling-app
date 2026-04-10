@@ -72,12 +72,13 @@ calculator/ – Django app logic
 calculator_project/ – Project configuration  
 templates/ – Frontend UI  
 manage.py – Django entry point  
-README.md – Project documentation  
+Architecture.png – Architecture diagram  
+Snapshots/ – Project screenshots  
+Recording/ – Demo video  
 
 ---
 
 ## 📸 Snapshots Include
-
 - Application Running via ALB  
 - Application Load Balancer Dashboard
 - Target Group Health Status
