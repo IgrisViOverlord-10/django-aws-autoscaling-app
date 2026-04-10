@@ -1,7 +1,7 @@
 # 🚀 Scalable Django Deployment on AWS with ALB & Auto Scaling
 
 ## 📌 Project Overview
-Designed and deployed a dynamic Django web application using a scalable AWS architecture with load balancing and auto scaling to ensure high availability and fault tolerance.
+Designed and deployed a dynamic Django web application using a scalable AWS architecture with load balancing and auto scaling for high availability.
 
 ---
 
@@ -41,7 +41,7 @@ Client → ALB → EC2 (Auto Scaling) → Nginx → Gunicorn → Django → Resp
 1. Launch EC2 instance and install dependencies  
 2. Deploy Django application  
 3. Configure Gunicorn and test application  
-4. Setup Nginx reverse proxy  
+4. Set up Nginx reverse proxy  
 5. Create AMI from configured instance  
 6. Create Launch Template using AMI  
 7. Setup Target Group and health checks  
@@ -87,7 +87,7 @@ Recording – Demo video
 ---
 
 ## 🎥 Recording
-Recording Demo: A short 25-second video showcasing the application in action, performing a calculation:
+Recording attached showcasing the Django application running via the ALB endpoint.
 36 ÷ 6 × 3 + 2² − (3 + 5) = 14.0
 
 ---
