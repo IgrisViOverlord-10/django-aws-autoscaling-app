@@ -75,9 +75,12 @@ README.md – Project documentation
 ---
 
 ## 📸 Snapshots Include
-- Application running via ALB DNS  
-- Target Group health status (multiple healthy instances)  
-- AWS architecture diagram  
+
+- Application Running via ALB  
+- Target Group Health Status  
+- Auto Scaling Group Dashboard  
+- Application Load Balancer Dashboard  
+- Architecture Diagram   
 
 ---
 
