@@ -86,7 +86,8 @@ README.md – Project documentation
 ---
 
 ## 🎥 Recording
-Recording attached showcasing the Django application running via the ALB endpoint.
+Recording Demo: A short 25-second video showcasing the application in action, performing a calculation:
+36 ÷ 6 × 3 + 2² − (3 + 5) = 14.0
 
 ---
 
