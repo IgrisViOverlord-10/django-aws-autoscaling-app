@@ -21,6 +21,8 @@ AWS EC2, Application Load Balancer (ALB), Auto Scaling Group (ASG), Nginx, Gunic
 ## 🏗 Architecture Flow
 Client → ALB → EC2 (Auto Scaling) → Nginx → Gunicorn → Django → Response
 
+![Architecture Diagram](Architecture.png)
+
 ---
 
 ## ⚙️ Implementation Summary
