@@ -73,8 +73,8 @@ calculator_project/ – Project configuration
 templates/ – Frontend UI  
 manage.py – Django entry point  
 Architecture.png – Architecture diagram  
-Snapshots/ – Project screenshots  
-Recording/ – Demo video  
+Snapshots – Project screenshots  
+Recording – Demo video  
 
 ---
 
