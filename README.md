@@ -88,7 +88,6 @@ Recording – Demo video
 
 ## 🎥 Recording
 Recording attached showcasing the Django application running via the ALB endpoint.
-36 ÷ 6 × 3 + 2² − (3 + 5) = 14.0
 
 ---
 
