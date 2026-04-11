@@ -3,27 +3,20 @@
 ## 📌 Project Overview
 Designed and deployed a dynamic Django web application using a scalable AWS architecture with load balancing and auto scaling for high availability.
 
----
-
 ## ❓ Why This Approach?
 - Handles traffic efficiently using load balancing  
 - Ensures high availability with multiple EC2 instances  
 - Automatically replaces unhealthy instances  
 - Reflects real-world production deployment practices  
 
----
-
 ## 💻 Tech Stack
 AWS EC2, Application Load Balancer (ALB), Auto Scaling Group (ASG), Nginx, Gunicorn, Django
-
----
 
 ## 🏗 Architecture Flow
 Client → ALB → EC2 (Auto Scaling) → Nginx → Gunicorn → Django → Response
 
 ![Architecture Diagram](Architecture.png)
 
----
 
 ## ⚙️ Implementation Summary
 - Launched EC2 instance and deployed Django application  
@@ -34,8 +27,6 @@ Client → ALB → EC2 (Auto Scaling) → Nginx → Gunicorn → Django → Resp
 - Configured Target Group with health checks  
 - Deployed Application Load Balancer  
 - Created Auto Scaling Group with multiple instances  
-
----
 
 ## 🛠 Implementation Steps
 1. Launch EC2 instance and install dependencies  
@@ -49,15 +40,11 @@ Client → ALB → EC2 (Auto Scaling) → Nginx → Gunicorn → Django → Resp
 9. Configure Auto Scaling Group  
 10. Validate traffic routing and instance health  
 
----
-
 ## 🔐 Security & Considerations
 - EC2 instances allow HTTP and restricted SSH access  
 - Application runs behind ALB (no direct dependency on single instance)  
 - Health checks ensure only healthy instances receive traffic  
 - Limitation: Gunicorn started manually (no process manager used)  
-
----
 
 ## 🚀 Key Outcomes
 - Successfully deployed a dynamic Django application on AWS  
@@ -65,33 +52,24 @@ Client → ALB → EC2 (Auto Scaling) → Nginx → Gunicorn → Django → Resp
 - Achieved fault tolerance using Auto Scaling Group  
 - Transitioned from static hosting to scalable architecture  
 
----
-
 ## 📂 Repository Files
-calculator/ – Django app logic  
-calculator_project/ – Project configuration  
-templates/ – Frontend UI  
-manage.py – Django entry point  
-Architecture.png – Architecture diagram  
-Snapshots – Project screenshots  
-Recording – Demo video  
-
----
+- calculator/ – Django app logic  
+- calculator_project/ – Project configuration  
+- templates/ – Frontend UI templates  
+- manage.py – Django entry point  
+- requirements.txt – Project dependencies  
+- Architecture.png – System architecture diagram  
+- Snapshots/ – Project setup and output screenshots  
+- Recording.mp4 – Demo video of the working application  
 
 ## 📸 Snapshots Include
 - Application Running via ALB  
 - Application Load Balancer Dashboard
 - Target Group Health Status
 - Auto Scaling Group Dashboard  
-  
----
 
 ## 🎥 Recording
 Recording attached showcasing the Django application running via the ALB endpoint.
 
----
-
 ## 💡 Conclusion
 This project demonstrates how modern applications are deployed with scalability, load balancing, and high availability using AWS services.
-
----
